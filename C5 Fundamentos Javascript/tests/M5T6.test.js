@@ -1,5 +1,5 @@
 const nuevoModulo = require("../ejercicios/06");
 
-test('Debe ser el resultado correcto del módulo', function () {
+test("nuevoModulo debe ser 1", function () {
   expect(nuevoModulo).toBe(true);
 });

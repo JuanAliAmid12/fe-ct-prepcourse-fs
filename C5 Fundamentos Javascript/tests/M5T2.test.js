@@ -1,5 +1,6 @@
 const nuevoNumero = require("../ejercicios/02");
 
-test('Debe ser un número', function () {
-  expect(typeof nuevoNumero).toBe('number');
+test(14, function () {
+  expect(typeof nuevoNumero).toBe("number");
+expect(nuevoNumero).toBe(14);
 });
